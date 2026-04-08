@@ -322,6 +322,8 @@ else if (opcao == "2")
 Console.WriteLine($"Total de carros agora: {listaDinamica.Count}");
 
 
+Console.WriteLine("Este código está rodando a partir da branch de teste.");
+
 //CLASSES E OBJETOS//
 //ex 13 e 14
 class Carro
@@ -341,11 +343,11 @@ class Funcionario
 {
     public string none;
     public double Salario;
-    public string Cargo;
+    public string Cargos;
 
     public void ExibirDados()
     {
-        Console.WriteLine($"Nome: {none} | Cargo: {Cargo} | Salario: R$ {Salario:F2}");
+        Console.WriteLine($"Nome: {none} | Cargo: {Cargos} | Salario: R$ {Salario:F2}");
     }
 
     public double CalcularSalarioAnual()
